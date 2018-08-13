@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.js"></script> 
+</head>
+<body>
+
+<div id="tabuleiro"></div>
+
+<script charset="utf8">
+  var app = { };
+    app.getComponente = function (nome){
+      if( !app[nome]) {
+        app[nome] = { $ctrl:{} };
+      }
+      return app[nome];
+    };
+
+</script>
+<script src="js/script.js" charset="utf8"></script>
+</body>
+</html>
